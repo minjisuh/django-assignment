@@ -1,3 +1,40 @@
+
+.container-fluid {
+    display: flex;
+    background-color: black;
+    width: 100%;
+}
+
+.navbar-brand {
+    color: white;
+    margin-right: auto;
+}
+
+.navbar-nav {
+    display: flex;
+    gap: 15px; /* 링크 사이의 간격을 조절합니다. */
+    align-items: center; /* 요소를 수직으로 가운데 정렬합니다. */
+}
+
+.navbar-nav .nav-link {
+    color: gray;
+}
+
+.navbar-nav .nav-link.active {
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 .page-header {
     background-color: #ff9400;
     margin-top: 0;
