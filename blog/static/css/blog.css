@@ -1,57 +1,49 @@
-
-.container-fluid {
-    display: flex;
-    background-color: black;
-    width: 100%;
-}
-
 .navbar-brand {
-    color: white;
-    margin-right: auto;
+    font-size: 24px; /* Brand 글꼴 크기 키우기 */
+    display: flex;
+    align-items: center; /* 요소를 수직으로 가운데 정렬 */
+    height: 100%; /* 부모 요소의 높이를 상속받도록 설정 */
+    padding-left: 50px;
+    color:#828282;
 }
 
-.navbar-nav {
+.navbar {
+    height: 70px; /* Navbar 높이 설정 */
     display: flex;
-    gap: 15px; /* 링크 사이의 간격을 조절합니다. */
-    align-items: center; /* 요소를 수직으로 가운데 정렬합니다. */
+    align-items: center; /* Navbar 요소를 수직으로 가운데 정렬 */
 }
 
 .navbar-nav .nav-link {
-    color: gray;
+    font-size: 15px; /* 링크 글꼴 크기 키우기 */
 }
 
-.navbar-nav .nav-link.active {
+.nav-link.active {
     color: white;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-.page-header {
-    background-color: #ff9400;
-    margin-top: 0;
-    padding: 20px 20px 20px 40px;
+.hero-section {
+    padding: 200px 0 !important;/* 위아래로 100px의 padding 추가 */
+    text-align: center;
+    background-color: #f8f9fa; /* 배경색을 빛나는 회색으로 변경 */
 }
 
-.page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
-    color: #ffffff;
-    font-size: 36pt;
-    text-decoration: none;
+.hero-section h1 {
+    font-weight: bold;;
+    margin-bottom: 20px; /* h1 요소 아래로 추가 공간을 주기 위해 수정 */
 }
+
+.hero-section h2 {
+   font-size: 18px; /* h2 요소의 글자 크기를 작게 조정 */
+   color:gray;
+   margin-bottom: 20px; /* h2 요소 아래로 추가 공간을 주기 위해 수정 */
+}
+
 
 .content {
     margin-left: 40px;
 }
 
-h1, h2, h3, h4 {
+h3, h4 {
     font-family: 'Lobster', cursive;
 }
 
