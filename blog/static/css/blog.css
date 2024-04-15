@@ -57,10 +57,6 @@ h3 {
     color: #8282822d;
 }
 
-.save {
-    float: right;
-}
-
 .post-form textarea, .post-form input {
     width: 100%;
 }
