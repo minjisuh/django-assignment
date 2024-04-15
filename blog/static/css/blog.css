@@ -21,26 +21,27 @@
     color: white;
 }
 
+
 .hero-section {
-    display: flex;
-    align-items: center; /* 요소를 수직으로 가운데 정렬 */
-    justify-content: center; /* 요소를 수평으로 가운데 정렬 */
-    margin-top : 100px;
-    background-color: #f8faf8; /* 배경색 설정 */
+    text-align: center; /* 텍스트를 가운데 정렬합니다. */
 }
 
 .hero-section h1 {
-    margin: 50px auto 25px; /* 위쪽 여백 50px, 아래쪽 여백 25px */
-    font-size: 40px;
-    font-weight: bold;
+    font-size: 40px; /* h1을 더 큰 글꼴 크기로 설정합니다. */
+    margin-top: 70px;
+    font-weight: bold; /* h1을 더 굵은 글꼴로 설정합니다. */
+    margin-bottom: 10px; /* h1과 h2 사이에 간격을 추가합니다. */
 }
 
 .hero-section h2 {
-    margin: 25px auto; /* 위쪽과 아래쪽 여백을 동시에 25px */
-    font-weight: 500;
-    font-size: 20px;
-    color: gray;
+    font-size : 20px;
+    margin-top: 0; /* 기본적인 위쪽 여백을 제거하여 h1과 h2 사이에 간격을 만듭니다. */
+    font-weight:lighter;
 }
+
+
+
+
 
 .content {
     margin-left: 40px;
