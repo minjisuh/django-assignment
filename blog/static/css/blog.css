@@ -24,22 +24,22 @@
 .hero-section {
     display: flex;
     align-items: center; /* 요소를 수직으로 가운데 정렬 */
+    justify-content: center; /* 요소를 수평으로 가운데 정렬 */
     margin-top : 100px;
-    background-color: #f8f9fa; /* 배경색 설정 */
+    background-color: #f8faf8; /* 배경색 설정 */
 }
 
 .hero-section h1 {
-    margin-left: auto;
-    font-size: 40px; /* h1 요소의 글자 크기를 크게 조정 */
-    font-weight: bold;;
-    margin-bottom: 25px; /* h1 요소 아래로 추가 공간을 주기 위해 수정 */
+    margin: 50px auto 25px; /* 위쪽 여백 50px, 아래쪽 여백 25px */
+    font-size: 40px;
+    font-weight: bold;
 }
 
 .hero-section h2 {
+    margin: 25px auto; /* 위쪽과 아래쪽 여백을 동시에 25px */
     font-weight: 500;
-   font-size: 10px; /* h2 요소의 글자 크기를 작게 조정 */
-   color:gray;
-   margin-bottom: 20px; /* h2 요소 아래로 추가 공간을 주기 위해 수정 */
+    font-size: 20px;
+    color: gray;
 }
 
 .content {
