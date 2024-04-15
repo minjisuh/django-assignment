@@ -40,8 +40,21 @@
     font-weight:lighter;
 }
 
+.post {
+    margin-bottom: 60px; /* 포스트 사이에 간격을 추가합니다. */
+}
 
+.row{
+    margin-left: 0;
+    margin-right: 0;
 
+}
+
+.col-md-8{
+    padding-left: 0;
+    padding-right: 0;
+    width: 100% !important;
+}
 
 
 .date{
@@ -50,11 +63,12 @@
 }
 
 .post h5 {
-    margin-top: 20px; /* h5와 p 사이에 간격을 추가합니다. */
-    font-size: 30px;
+    font-size: 40px;
     font-family: "Lobster", cursive; /* 글꼴을 Lobster로 설정합니다. */
 }
 
-.comment {
-    margin: 20px 0px 20px 20px;
+
+.post p {
+    font-size: 18px; /* 글꼴 크기를 더 크게 설정합니다. */
+    color: #000000; /* 글꼴 색상을 회색으로 설정합니다. */
 }
