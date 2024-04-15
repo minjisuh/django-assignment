@@ -22,12 +22,14 @@
 }
 
 .hero-section {
-    padding: 160px 0;
-    text-align: center;
-    background-color: #ffffff; /* 배경색을 빛나는 회색으로 변경 */
+    display: flex;
+    align-items: center; /* 요소를 수직으로 가운데 정렬 */
+    margin-top : 100px;
+    background-color: #f8f9fa; /* 배경색 설정 */
 }
 
 .hero-section h1 {
+    margin-left: auto;
     font-size: 40px; /* h1 요소의 글자 크기를 크게 조정 */
     font-weight: bold;;
     margin-bottom: 25px; /* h1 요소 아래로 추가 공간을 주기 위해 수정 */
@@ -35,22 +37,23 @@
 
 .hero-section h2 {
     font-weight: 500;
-   font-size: 20px; /* h2 요소의 글자 크기를 작게 조정 */
+   font-size: 10px; /* h2 요소의 글자 크기를 작게 조정 */
    color:gray;
    margin-bottom: 20px; /* h2 요소 아래로 추가 공간을 주기 위해 수정 */
 }
-
 
 .content {
     margin-left: 40px;
 }
 
-h3, h4 {
+h3 {
+    color : black;
+    font-size: large;
     font-family: 'Lobster', cursive;
 }
 
 .date {
-    color: #828282;
+    color: #8282822d;
 }
 
 .save {
