@@ -10,6 +10,12 @@
         <h5>{{ post.title }}</h5>
         <p>{{ post.content|linebreaksbr }}</p>
     </div>
+    <div class="category">
+        Categories:
+        {% for category in post.categories.all %}
+            {{ category.name }}{% if not forloop.last %}, {% endif %}
+        {% endfor %}
+    </div>
     <hr>
     <a class="btn btn-default" href="{% url 'add_comment_to_post' pk=post.pk %}">Add comment</a>
     {% for comment in post.comments.all %}
@@ -19,7 +25,8 @@
                 {{ comment.created_date }}
                 
             </div>
-            <strong>{{ comment.author }}</strong>
+            <strong>author : {{ comment.author }}</strong>
+            <h6>Comment : </h6>
             <p>{{ comment.text|linebreaks }}</p>
         </div>
         {% endif %}
